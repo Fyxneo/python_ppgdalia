@@ -1,0 +1,26 @@
+from django.db import models
+
+class Activity(models.Model):
+    
+    BVP = models.FloatField()
+    wrist_ACC_X = models.FloatField()
+    wrist_ACC_Y = models.FloatField()
+    wrist_ACC_Z = models.FloatField()
+    EDA = models.FloatField()
+    chest_ACC_X = models.FloatField()
+    chest_ACC_Y = models.FloatField()
+    chest_ACC_Z = models.FloatField()
+    chest_ECG = models.FloatField()
+    chest_EMG = models.FloatField()
+    chest_EDA = models.FloatField()
+    chest_Temp = models.FloatField()
+    chest_Resp = models.FloatField()
+    rpeaks = models.FloatField()
+    WEIGHT = models.FloatField()
+    AGE = models.FloatField()
+    HEIGHT = models.FloatField()
+    SKIN = models.FloatField()
+    SPORT = models.FloatField()
+    f = models.FloatField()
+    m = models.FloatField()
+    Activities = models.FloatField(null=True)
